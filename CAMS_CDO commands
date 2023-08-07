@@ -1,0 +1,3 @@
+# in /data0/shr/bne/jc_data/nox/raw/CAMS/cams_no2_2002_2022
+
+cdo daymean cams_ml.nc cams_daymean.nc
