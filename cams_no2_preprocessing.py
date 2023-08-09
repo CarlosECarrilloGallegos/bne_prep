@@ -2,6 +2,8 @@ import xarray as xr
 import pandas as pd
 import numpy as np
 
+#path code is in: /data0/shr/bne/jc_data/nox/daily
+
 cams = xr.open_dataset('CAMS/cams_no2_2003_2022/cams_daymean.nc')
 
 time = ['2003','2004','2005','2006','2007','2008','2009',
