@@ -1,3 +1,16 @@
-# in /data0/shr/bne/jc_data/nox/raw/CAMS/cams_no2_2002_2022
+
+# For NO2
+# in /data0/shr/bne/jc_data/nox/daily/raw/CAMS/cams_no2_2002_2022
 
 cdo daymean cams_ml.nc cams_daymean.nc
+
+#For PM2.5
+# in /data0/shr/bne/jc_data/pm25/hourly/raw/CAMS
+
+cdo daymean cams_pm25_2003_2022.nc cams_pm25_daymean_2003_2022.nc
+
+
+#For O3
+#in /data0/shr/bne/jc_data/o3/hourly/raw/CAMS/cams_o3_2003_2022
+
+cdo daymean levtype_ml.nc cams_o3_daymean_2003_2022.nc
