@@ -17,4 +17,4 @@ for i in time:
     #Replace fill values with NANs
     omi_v4_df_conus = omi_v4_df_conus.mask(omi_v4_df_conus < -200)
     
-    omi_v4_df_conus.to_csv('/data0/shr/bne/jc_data/nox/daily/formatted/CONUS/OMI_v4')
+    omi_v4_df_conus.to_csv('/data0/shr/bne/jc_data/nox/daily/formatted/CONUS/OMI_v4/OMI_no2_' + i + '_daily.csv')
